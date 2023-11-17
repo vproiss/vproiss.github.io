@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Head content like title, link to CSS files, etc. -->
+</head>
+<body>
+  <div class="sidebar">
+    <!-- Loop through site.pages or site.data to list navigation links -->
+    <ul>
+      {% for page in site.pages %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="content">
+    <!-- This is where the content of your pages will be included -->
+    {{ content }}
+  </div>
+
+  <script>
+    // Any necessary JavaScript
+  </script>
+</body>
+</html>
