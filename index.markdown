@@ -1,6 +1,6 @@
 ---
 layout: home
-title: My Awesome Site
+title: Portfolio
 ---
 
 Welcome to my website!
