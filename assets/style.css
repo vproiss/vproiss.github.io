@@ -1,0 +1,12 @@
+/* Example CSS */
+.sidebar {
+    width: 200px;
+    float: left;
+  }
+  
+  .content {
+    margin-left: 200px;
+  }
+  
+  /* Add more styling as needed */
+  
